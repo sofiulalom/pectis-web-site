@@ -3,14 +3,19 @@ body{
     margin: 0;
     
 }
-#top-banner{
-    display:flex;
+p{
+    text-align: justify;
+}
+.top-banner{
     background-image: url(images/shapes/Frame\ 57.jpg),
     linear-gradient(rgba(0, 0, 0, 0.254), rgba(0, 0, 0, 0.254));
     background-repeat: no-repeat;
     background-size: left;
-  
-
+}
+.flexybol-container{
+    display: flex;
+    margin-bottom: 100px;
+    
 }  
 .pizza-item{
     width: 50%;
@@ -29,4 +34,12 @@ body{
     font-weight: 200;
     padding: 10px 40px;
     
+}
+.link-btn:hover{
+    background:linear-gradient(rgb(255, 166, 0),rgb(234, 255, 0));
+
+}
+.bg-pic{
+    background-image:url(images/shapes/Frame\ 58.jpg) ;
+    background-repeat: no-repeat;
 }
