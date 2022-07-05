@@ -1,4 +1,32 @@
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
+    
+}
+#top-banner{
+    display:flex;
+    background-image: url(images/shapes/Frame\ 57.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.254), rgba(0, 0, 0, 0.254));
+    background-repeat: no-repeat;
+    background-size: left;
+  
+
+}  
+.pizza-item{
+    width: 50%;
+    padding: 5%;
+}
+.pizza-item img{
+    width: 80%;
+    padding: 5%;
+}
+.link-btn{
+    text-decoration: none;
+    background:linear-gradient(rgb(0, 255, 242) ,rgb(35, 210, 35));
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 40px;
+    
 }
